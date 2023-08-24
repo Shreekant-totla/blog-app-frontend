@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import SignupPage from './SignupPage'
 import LoginPage from './LoginPage'
 import Blogs from '../components/Blogs'
+import PrivateRoute from '../components/PrivateRoute'
 
 const AllRoutes = () => {
   return (<>
